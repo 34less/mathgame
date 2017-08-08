@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Math game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed|Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+  </head>
+  <body>
+  <!-- HEADER PART OF THE FILE -->
+  	<header>
+  		<h1> Learn how to multiplicate </h1>
+  	</header>
+
+  <!-- MAIN PART OF THE FILE -->
+  	<div class="container">
+  		<div id="score">
+  			<p>Score: <span id="scorevalue">0</span></p>
+  		</div>
+
+  		<div id="correct">
+  			<p>Correct</p>
+  		</div>
+
+  		<div id="wrong">
+  			<p>Try again</p>
+  		</div>
+
+  		<div id="question">
+  			<p id="questioninner"></p>
+  		</div>
+
+  		<div id="instruction">
+  		<p>Click on the correct answer</p>
+  		</div>
+
+  		<div id="choices">
+  			<div id="box1" class="box">
+  				
+  			</div>
+  			<div id="box2" class="box">
+  			</div>
+  			<div id="box3" class="box">
+  			</div>
+  			<div id="box4" class="box">
+  			</div>
+   		</div>
+
+   		<div id="gameover">
+   			<h1>GAME OVER</h1>
+   			<p>Your score is <span id="result">0</span></p>
+
+   		</div>
+
+   		<div id="startgame">
+
+   			<p id="startgameinner">Start game!</p>
+
+   		</div>
+
+   		<div id="timeremaning">
+
+   			<p>The time remaining is: <span id="almostlost">60</span></p>
+
+   		</div>
+  	</div>
+
+  
+  <script
+  src="http://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="./resources/js/main.js"> </script>
+  </body>
+</html>
